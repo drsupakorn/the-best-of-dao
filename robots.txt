@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sbuasai2010-png.github.io/the-best-of-dao/sitemap.xml
