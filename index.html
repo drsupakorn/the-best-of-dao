@@ -185,6 +185,27 @@
       transform: translateY(-1px);
     }
 
+.preview-link {
+  display: block;
+  margin: 30px 0 8px;
+  max-width: 1100px;
+  text-decoration: none;
+}
+
+.social-preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 18px 50px rgba(38, 45, 38, 0.16);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.preview-link:hover .social-preview,
+.preview-link:focus .social-preview {
+  transform: translateY(-3px);
+  box-shadow: 0 24px 60px rgba(38, 45, 38, 0.22);
+}
     .note {
       margin: 13px 0 0;
       color: var(--muted);
@@ -277,9 +298,21 @@
           เข้าใจเหล่าจื่อ จวงจื่อ และอู๋เว่ย ผ่านบทความภาพที่อ่านง่าย
         </p>
 
-        <p class="intro-en">
-          A visual guide to Laozi, Zhuangzi, and Wu Wei.
-        </p>
+      <p class="intro-en">
+    A visual guide to Laozi, Zhuangzi, and Wu Wei.
+</p>
+
+<a href="https://the-best-of-dao-7exh8rs.gamma.site/"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="preview-link">
+
+    <img
+        src="social-preview.jpg"
+        alt="The Best of Dao"
+        class="social-preview">
+
+</a>
 
         <a class="button"
            href="https://the-best-of-dao-7exh8rs.gamma.site/"
